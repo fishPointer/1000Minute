@@ -12,6 +12,8 @@ start_minutes = 0
 root = Tk()
 root.title("1000 Minutes")
 root.geometry("700x300")
+img = PhotoImage(file='/home/eein/Documents/Lab/Code/Python Stuffs/Tkinters/fsl.png')
+root.call('wm', 'iconphoto', root._w, img)
 
 
 def time():
